@@ -1,0 +1,268 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.tp1{
+    border-radius: 25px;
+}
+.topnav font{
+    margin-left: 80px;
+font-size: 24px;
+font-weight: bold;
+}
+
+.topnav input{
+   align-content: center;
+    width: 28%;
+    padding: 8px 12px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 16px;
+    border-top:4px solid blue;
+}
+.topnav{
+	background-color: blue;
+	overflow: hidden;
+	background-size: auto;
+    width:100%;
+    padding: 8px 10px;
+}
+
+.btn{
+    color: white;
+    width: 6%;
+    font-size: 12px;
+    background: none;
+    border: 2px solid blue;
+    text-align: center;
+    padding: 9px 6px;
+    background: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 25px;
+}
+.btn:hover{
+    color: blue;
+    background: white;
+}
+.btn1{
+    margin-left: 100px;
+   color: white;
+    width: 6%;
+    font-size: 12px;
+    background: none;
+    border: 2px solid blue;
+    text-align: center;
+    padding: 9px 12px;
+    background: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 25px;
+}
+.btn1:hover{
+    color: blue;
+    background: white;
+}
+.btn11{
+    margin-left: 100px;
+   color: white;
+    width: 6%;
+    font-size: 12px;
+    background: none;
+    border: 2px solid blue;
+    text-align: center;
+    padding: 9px 12px;
+    background: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 25px;
+}
+.btn11:hover{
+    color: blue;
+    background: white;
+}
+.btn2{
+    margin-left: 50px;
+   color: white;
+    width: 7%;
+    font-size: 12px;
+    background: none;
+    border: 2px solid blue;
+    text-align: center;
+    padding: 9px 12px;
+    background: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 25px;
+}
+.btn2:hover{
+    color: blue;
+    background: white;
+}
+.btn3{
+    margin-left: 6px;
+   color: white;
+    width: 4%;
+    font-size: 12px;
+    background: none;
+    border: 2px solid blue;
+    text-align: center;
+    padding: 9px 12px;
+    background: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 25px;
+}
+.btn3:hover{
+    color: blue;
+    background: white;
+
+}
+.md{
+    margin-left:100px;
+
+}
+.md img{
+    width: 6%;
+    margin-left: 120px;
+}
+.name{
+    margin-left: 30px;
+}
+.name li{
+    display: inline-block;
+}
+.img1{
+    margin-left: 50px;
+}
+.img2{
+    margin-left: 50px;
+    width: 50%;
+    padding: 10px;
+}
+.text1{
+    margin-left: 165px;
+}
+.text2{
+    margin-left: 85px;
+}
+.text3{
+    margin-left: 115px;
+}
+.text12{
+    margin-left: 95px;
+}
+.text4{
+    margin-left: 100px;
+}
+.text5{
+    margin-left: 20px;
+}
+.text6{
+    margin-left: 35px;
+}
+.text8{
+    margin-left: 78px;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding: 12px;
+}
+.navbar li a:hover{
+    color: blue;
+}
+
+.navbar li a {
+    color: black;
+    text-decoration: none;
+    padding: 12px;
+}
+
+.navbar li a.active {
+    background: white;
+    color: blue;
+}
+.submenu {
+    display: none;
+}
+
+.navbar li:hover .submenu {
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -15px;
+    background-color:white;
+
+}
+
+.navbar li:hover .submenu ul li {
+    display: block;
+    margin: 5px;
+    width: 190px;
+    padding:5px;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.navbar li:hover .submenu ul li:last-child {
+    border-bottom: none;
+}
+
+.navbar li:hover .submenu ul li:hover {
+    color: blue;
+}
+.img{
+    margin-top: 55px;
+    margin-right: 0px;
+}
+
+.left{
+    margin-left: 70px;
+}
+
+.down{
+    background-color: #2C3E50;
+    height: 250px;
+   border-top: 8px solid rgb(202, 18, 18); 
+
+}
+.fot1{
+    margin-left: 80px;
+    line-height: 2;
+}
+.fot1 a{
+    line-height: 2;
+    margin-left: 80px;
+    text-decoration: none;
+    color: rgb(176, 176, 176);
+}
+.fot1 a:hover{
+    color: blue;
+}
+.fot2{
+    line-height: 2;
+    
+}
+.fot2 a{
+    line-height: 2;
+    text-decoration: none;
+    color: rgb(176, 176, 176);
+
+}
+.fot2 a:hover{
+    color: blue;
+}
+
+

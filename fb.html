@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style1.css">
+
+</head>
+<body>
+
+<div class="container">
+
+    <form name="myform" method="post" action="fb.jsp">
+
+        <div class="row">
+
+            <div class="col">
+
+                <h3 class="title">Feedback</h3>
+
+                <div class="inputBox">
+                    <span>Product Name :</span>
+                    <input type="text" placeholder="Alexa" name="pname">
+                </div>
+                <div class="inputBox">
+                    <span>Rating :</span>
+                    <input type="text" placeholder="Three/four" name="rg">
+                </div>
+
+<a style="text-decoration: none;"><button class="submit-btn" onclick="myalert()">
+    Submit
+</button></a>
+<script>
+    function myalert() {
+        alert("Succefully Submited!" );
+    }
+</script>
+    </form>   
+    
+</body>
+</html>

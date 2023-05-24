@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>E-Mall</title>
+	<link rel="stylesheet" href="go.css">
+</head>
+<body>
+<center><font class="pay">Payment</font></center>
+<form class="pay1" name="myform" method="post" action="go.jsp">
+<h3>
+Cash on Delivery<br><input type="text" name="cod" placeholder="Yes/NO"><br><br>
+Wallet<br><input type="text" name="wt" placeholder="Yes/NO"><br><br>
+Debit/Credit Card<br><input type="text"name="dc"placeholder="Yes/NO"><br><br>
+Net Banking<br><input type="email" name="nb"placeholder="Yes/NO"><br><br>
+UPI (Google pay/Phone pay)<br><input type="text" name="upi"placeholder="Yes/NO"><br><br>
+
+</h3>
+<a style="text-decoration: none;"><button class="btn4" onclick="myalert()">
+	Place order
+</button></a>
+<script>
+	function myalert() {
+		alert("Succefully Confirmed Order..!!" );
+	}
+</script>
+
+</form>
+</body>
+</html>
